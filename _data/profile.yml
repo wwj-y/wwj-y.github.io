@@ -4,6 +4,7 @@ navbar_name: "Wenjia Yang"
 
 positions:
 - name: Undergraduate Student
+- name: '<i class="fas fa-map-marker-alt"></i> Austin, Texas, US'
 - name: Tsinghua University
   logo: /assets/images/badges/THU.png
 
