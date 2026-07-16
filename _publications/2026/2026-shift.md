@@ -4,8 +4,7 @@ date:           2026-03-01 00:00:00 +0800
 selected:       true
 pub:            "ECCV"
 pub_date:       "2026"
-abstract: >-
-  A scalable reward-driven fine-tuning framework that aligns motion in video diffusion models via pixel-motion rewards and adversarial hybrid optimization.
+cover:          /assets/images/covers/shift.jpg
 authors:
 - Xi Ye*
 - Wenjia Yang*

@@ -4,8 +4,7 @@ date:           2026-05-01 00:00:00 +0800
 selected:       true
 pub:            "COLM"
 pub_date:       "2026"
-abstract: >-
-  An open RL training framework that scales vision-language models to 100+ turn interactive decision-making in games, with stable PPO-based training and strong gains over frontier models.
+cover:          /assets/images/covers/odysseus.jpg
 authors:
 - Chengshuai Shi*
 - Wenzhe Li*
