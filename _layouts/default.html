@@ -4,7 +4,54 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>{{ page.title }} - {{ site.data.profile.navbar_name }}</title>
+    {% assign profile_name = site.data.profile.primary_name | default: site.data.profile.navbar_name %}
+    {% assign page_title = page.title | default: site.title %}
+    {% assign page_description = page.description | default: site.description %}
+    {% if page.url == "/" %}
+        {% assign full_title = site.title %}
+    {% else %}
+        {% assign full_title = page_title | append: " - " | append: site.title %}
+    {% endif %}
+    <title>{{ full_title }}</title>
+    <meta name="description" content="{{ page_description | strip_html | strip_newlines | escape }}">
+    <meta name="author" content="{{ profile_name | escape }}">
+    <meta name="robots" content="index, follow">
+    <meta name="keywords" content="{{ site.keywords | join: ', ' | escape }}">
+    <link rel="canonical" href="{{ page.url | absolute_url }}">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="{{ full_title | escape }}">
+    <meta property="og:description" content="{{ page_description | strip_html | strip_newlines | escape }}">
+    <meta property="og:url" content="{{ page.url | absolute_url }}">
+    {% if site.data.profile.portrait_url %}
+    <meta property="og:image" content="{{ site.data.profile.portrait_url | absolute_url }}">
+    {% endif %}
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="{{ full_title | escape }}">
+    <meta name="twitter:description" content="{{ page_description | strip_html | strip_newlines | escape }}">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "{{ profile_name | escape }}",
+      "url": "{{ '/' | absolute_url }}",
+      "sameAs": [
+        "https://github.com/{{ site.data.profile.github }}",
+        "{{ site.data.profile.gscholar }}",
+        "https://x.com/{{ site.data.profile.twitter }}"
+      ],
+      "affiliation": {
+        "@type": "CollegeOrUniversity",
+        "name": "Tsinghua University"
+      },
+      "jobTitle": "Undergraduate Student",
+      "knowsAbout": [
+        "video generation",
+        "vision-language models",
+        "3D vision",
+        "embodied interaction"
+      ]
+    }
+    </script>
 
     <!-- Stylesheets -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css" integrity="sha512-P5MgMn1jBN01asBgU0z60Qk4QxiXo86+wlFahKrsQf37c9cro517WzVSPPV1tDKzhku2iJ2FVgL67wG03SGnNA==" crossorigin="anonymous" />

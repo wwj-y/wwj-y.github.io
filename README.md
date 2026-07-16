@@ -1,3 +1,11 @@
+# Wenjia Yang's Academic Homepage
+
+This repository hosts the personal academic homepage for Wenjia Yang (wwj-y): https://wwj-y.github.io.
+
+The site includes research interests, publications, news, and contact links including GitHub: https://github.com/wwj-y.
+
+Built from the academic-homepage template.
+
 # academic-homepage
 
 [![Preview](assets/images/etc/preview.png)](https://luost26.github.io/academic-homepage/)

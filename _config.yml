@@ -13,7 +13,19 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+title: "Wenjia Yang | wwj-y"
+description: "Personal academic homepage of Wenjia Yang (wwj-y), an undergraduate student at Tsinghua University working on video generation, vision-language models, 3D vision, and embodied interaction."
+url: "https://wwj-y.github.io"
 baseurl: "" # the subpath of your site, e.g. /blog
+keywords:
+  - Wenjia Yang
+  - wwj-y
+  - GitHub
+  - Tsinghua University
+  - video generation
+  - vision-language models
+  - 3D vision
+  - embodied interaction
 
 # Build settings
 markdown: kramdown
