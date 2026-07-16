@@ -14,8 +14,7 @@ gscholar: https://scholar.google.com/citations?user=NwQMMcoAAAAJ&hl=zh-CN
 github: wwj-y
 twitter: Wejamooyyy
 wechat_id: wxid_ipvgvn9uftsr12
-wechat_prompt: >-
-  Please tell me your <strong>name</strong> and <strong>affiliation</strong> when adding me. Thanks!
+wechat_prompt: ""
 # linkedin: your-linked-in-id
 # orcid: 0000-0000-0000-0000
 
@@ -25,21 +24,19 @@ short_bio: >-
     I am a third-year undergraduate student at
     <a href="https://www.wyc.tsinghua.edu.cn/" target="_blank">Weiyang College</a>,
     <a href="https://www.tsinghua.edu.cn/" target="_blank">Tsinghua University</a>,
-    pursuing a dual bachelor's degree in Mathematical and Physical Sciences and Software Engineering.
+    pursuing a dual bachelor's degree in Mathematics and Physics and Software Engineering.
   </p>
   <p>
-    My research interest lies in understanding physical structure through learning systems—
-    how models can capture, preserve, and reason about the physical world across generation,
-    interaction, and 3D perception.     I am particularly interested in
+    I aim to build models that capture low-dimensional intrinsic laws behind complex observations and interactions.
+    I am broadly interested in
     <em>video generation</em>,
     <em>vision-language models</em>,
     and <em>3D vision</em> with physically grounded, embodied interaction.
   </p>
   <p>
-    Please feel free to reach out—I warmly welcome discussions and collaborations,
-    both online and offline.
-    <strong>I am currently seeking Ph.D. positions in the United States for Fall 2027</strong>,
-    and would be glad to chat about research fit and possible ways to work together.
+    I look forward to discussions and collaborations, both online and offline.
+    I am happy to talk about potential research opportunities and collaboration.
+    <strong>I am currently seeking Ph.D. positions starting in Fall 2027.</strong>
   </p>
 
 portrait_url: /assets/images/photos/portrait.jpg
@@ -50,7 +47,7 @@ education:
   logo: /assets/images/badges/THU.png
   position: >-
     Weiyang College <br/>
-    Dual Bachelor's: B.Sc. in Mathematical and Physical Sciences + B.Eng. in Software Engineering <br/>
+    Dual Bachelor's: B.Sc. in Mathematics and Physics + B.Eng. in Software Engineering <br/>
     GPA: 3.7 / 4.0 (Top 30%)
   date: 2023 - 2027 (estimated)
 
