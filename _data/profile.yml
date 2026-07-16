@@ -3,8 +3,7 @@ secondary_name: "杨文嘉"
 navbar_name: "Wenjia Yang"
 
 positions:
-- name: Undergraduate Student (Junior)
-- name: '<i class="fas fa-map-marker-alt"></i> Austin, Texas, US'
+- name: Undergraduate Student
 - name: Tsinghua University
   logo: /assets/images/badges/THU.png
 
@@ -13,8 +12,6 @@ email: "yangwj23@mails.tsinghua.edu.cn"
 gscholar: https://scholar.google.com/citations?user=NwQMMcoAAAAJ&hl=zh-CN
 github: wwj-y
 twitter: Wejamooyyy
-wechat_id: wxid_ipvgvn9uftsr12
-wechat_prompt: ""
 # linkedin: your-linked-in-id
 # orcid: 0000-0000-0000-0000
 
@@ -44,8 +41,7 @@ education:
   logo: /assets/images/badges/THU.png
   position: >-
     Weiyang College <br/>
-    Dual Bachelor's: B.Sc. in Mathematics and Physics + B.Eng. in Software Engineering <br/>
-    GPA: 3.7 / 4.0 (Top 30%)
+    Dual Bachelor's: B.Sc. in Mathematics and Physics + B.Eng. in Software Engineering
   date: 2023 - 2027 (estimated)
 
 experience:
@@ -63,5 +59,5 @@ experience:
   position: Physical dynamics of embodied human–object interaction.
 
 awards:
-- name: Tsinghua Affiliate - Tu You Scholarship for Excellent Student
+- name: Tu You Scholarship for Excellent Students
 - name: Tsinghua University Scholarship for Excellence in Innovation & Research
