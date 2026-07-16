@@ -3,7 +3,8 @@ secondary_name: "杨文嘉"
 navbar_name: "Wenjia Yang"
 
 positions:
-- name: Undergraduate Student (Junior), Active
+- name: Undergraduate Student (Junior)
+- name: '<i class="fas fa-map-marker-alt"></i> Austin, Texas'
 - name: Tsinghua University
   logo: /assets/images/badges/THU.png
 
@@ -19,12 +20,7 @@ gscholar: https://scholar.google.com/citations?user=NwQMMcoAAAAJ&hl=zh-CN
 # orcid: 0000-0000-0000-0000
 
 short_bio_text_justify: false
-short_bio: >-
-  <p>
-    I am a third-year undergraduate student at
-    <a href="https://www.tsinghua.edu.cn/" target="_blank">Tsinghua University</a>,
-    majoring in Mathematics and Physics with a second major in Software Engineering.
-  </p>
+short_bio: ""
 
 portrait_url: /assets/images/photos/portrait.jpg
 # portrait_caption: >-
@@ -33,15 +29,24 @@ education:
 - name: Tsinghua University
   logo: /assets/images/badges/THU.png
   position: >-
-    B.S. in Mathematics and Physics + Software Engineering <br/>
-    Undergraduate Student (Junior), Active
+    Weiyang College <br/>
+    Dual Bachelor's: B.Sc. in Mathematical and Physical Sciences + B.Eng. in Software Engineering <br/>
+    GPA: 3.7 / 4.0 (Top 30%)
   date: 2023 - 2027 (estimated)
 
 experience:
+- name: Tsinghua University · TSAIL
+  logo: /assets/images/badges/THU.png
+  dept: 'Advised by Prof. <a href="https://ml.cs.tsinghua.edu.cn/~jun/" target="_blank">Jun Zhu</a>'
+  position: Video generation and motion dynamics (ECCV 2026).
+- name: Princeton University · PLI
+  logo: /assets/images/badges/Princeton.png
+  dept: 'Advised by Prof. <a href="https://sites.google.com/view/cjin/home" target="_blank">Chi Jin</a>'
+  position: Vision-language models for long-horizon decision-making in games (COLM 2026).
 - name: The University of Texas at Austin
   logo: /assets/images/badges/UTAustin.png
-  position: Student Intern
-  date: Jun. 20 - Sep. 8, 2026
+  dept: 'Advised by Prof. <a href="https://www.cs.utexas.edu/~huangqx/" target="_blank">Qixing Huang</a>'
+  position: Physical dynamics of human–object interaction.
 
 awards:
 - name: Tsinghua Affiliate - Tu You Scholarship for Excellent Student
